@@ -1,5 +1,5 @@
 body {
-  background-color: #f0ecfa;
+  background-color: white;
   font-family: Roboto, sans-serif;
 }
 
@@ -8,7 +8,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 600px;
-  background-color: rgb(255, 255, 255);
   border: 1px;
   border-style: solid;
   border-radius: 16px;
@@ -30,21 +29,21 @@ p {
   padding: 10px 250px 10px 10px;
   border: 1px solid;
   border-radius: 5px;
-  border-color: #f9f7fe;
+  border-color: white;
   font-size: 15px;
   color: rgb(126, 125, 125);
   margin-right: 10px;
-  background-color: #f0ecfa;
+  background-color: white;
 }
 #submit {
   padding-block: 10px;
   padding-inline: 20px;
   border: 1px solid;
   border-radius: 5px;
-  border-color: #885df1;
+  border-color: #4576e8;
   font-size: 15px;
   color: white;
-  background-color: #885df1;
+  background-color: #4576e8;
 }
 .current-weather-block {
   padding-top: 30px;
@@ -61,7 +60,7 @@ p {
   margin: 0px auto;
 }
 strong {
-  color: #c71585;
+  color: #154ac7;
 }
 .icon img {
   width: 120px;
@@ -109,5 +108,6 @@ footer {
   font-size: 14px;
 }
 footer a {
-  color: #885df1;
+  color: #154ac7;
+  font-weight: bold;
 }
