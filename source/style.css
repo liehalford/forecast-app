@@ -4,6 +4,7 @@ body {
 }
 
 .box {
+  background: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/876/original/photo-1612404748636-568ca4155994.jpg?1709049107);
   max-width: 600px;
   background-color: rgb(255, 255, 255);
   border: 1px;
