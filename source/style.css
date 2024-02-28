@@ -56,6 +56,7 @@ p {
 }
 
 .city-name {
+  color: #154ac7;
   font-size: 45px;
   margin: 0px auto;
 }
@@ -66,6 +67,7 @@ strong {
   width: 120px;
 }
 .current-temperature {
+  color: #154ac7;
   display: flex;
   flex-direction: row;
 }
@@ -100,9 +102,10 @@ strong {
 }
 .forecast-temperature {
   text-align: center;
+  color: rgba(0, 0, 0, 0.608);
 }
 footer {
-  margin-top: 60px;
+  margin-top: 50px;
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
   font-size: 14px;
@@ -110,4 +113,8 @@ footer {
 footer a {
   color: #154ac7;
   font-weight: bold;
+}
+hr {
+  width: 86%;
+  border-color: #ebeef45e;
 }
