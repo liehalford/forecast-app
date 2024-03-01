@@ -64,10 +64,8 @@ function getForecast(city) {
 
 function displayForecast(response) {
   console.log(response.data);
-  let forecast = document.querySelector("#forecast");
-  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
   let forecastHtml = "";
-  days.forEach(function (day) {
+  response.data.daily.forEach(function (day) {
     forecastHtml =
       forecastHtml +
       `
@@ -77,7 +75,7 @@ function displayForecast(response) {
       <img src="img/rain-day.png" alt="rainy day" />
     </span>
     <span class="forecast-temperature">
-      <strong>11°</strong> 5°
+      <strong>${day.temperature.maximum}°</strong> ${day.temperature.minimum}°
     </span>
   </div>
 `;
