@@ -95,7 +95,9 @@ strong {
   justify-content: space-around;
 }
 .forecast-icon {
-  width: 100px;
+  width: 90px;
+  display: block;
+  margin: 0 auto;
 }
 .forecast-day {
   text-align: center;
